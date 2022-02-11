@@ -1,0 +1,19 @@
+# Godot-specific ignores
+*.stex
+*.md5
+*.import
+.import/
+/build/
+!/build/.gdignore
+export.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+/Properties/
+*.csproj
+*.sln
+mono_crash.*
